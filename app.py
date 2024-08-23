@@ -8,8 +8,7 @@ import platform
 #pathlib.PosixPath = pathlib.WindowsPath
 
 plt = platform.system()
-if plt =='Linux':
-    pathlib.WindowsPath = pathlib.PosixPath
+if plt =='Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 st.title("Qurollarni classiffikasiya qilish")
 
